@@ -15,6 +15,10 @@ public class GetData {
 		return data;
 	}
 
+	/**
+	 * This method is to read the data from excel
+	 * @return
+	 */
 	public String[][] getData() {
 		XSSFWorkbook wb = null;
 		try {
