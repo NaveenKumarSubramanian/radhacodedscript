@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="45" passed="45" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-27T13:20:23 IST" name="Default suite" finished-at="2022-06-27T13:21:31 IST" duration-ms="67912">
+    <groups>
+    </groups>
+    <test started-at="2022-06-27T13:20:23 IST" name="Default test" finished-at="2022-06-27T13:21:31 IST" duration-ms="67912">
+      <class name="com.maplogik.functional.ApproveCertificate">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:20:23 IST" name="openBrowser" finished-at="2022-06-27T13:20:24 IST" duration-ms="1106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="adminLogin()[pri:0, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:20:24 IST" name="adminLogin" finished-at="2022-06-27T13:20:29 IST" duration-ms="4363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:20:30 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:20:51 IST" duration-ms="21194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0301]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9500012608]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:20:51 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:20:59 IST" duration-ms="8136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0302]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9444301442]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:20:59 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:07 IST" duration-ms="8145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0303]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9751759461]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:07 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:15 IST" duration-ms="7787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0304]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9840131115]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:15 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:16 IST" duration-ms="579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0305]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9962545006]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:16 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:16 IST" duration-ms="389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0306]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9962276410]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:16 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:16 IST" duration-ms="392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0307]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9108088142]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:16 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:17 IST" duration-ms="385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0308]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9597051047]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:17 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:17 IST" duration-ms="385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0309]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9597051047]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:17 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:18 IST" duration-ms="384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0310]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9840255396]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:18 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:18 IST" duration-ms="401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0311]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9840255396]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:18 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:18 IST" duration-ms="407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0312]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9940039568]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:18 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:19 IST" duration-ms="451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0313]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9841980031]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:19 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:19 IST" duration-ms="356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0314]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9940073119]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:19 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:20 IST" duration-ms="385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0315]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8667853818]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:20 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:20 IST" duration-ms="387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0316]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9884949490]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:20 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:20 IST" duration-ms="371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0317]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8056033783]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:20 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:21 IST" duration-ms="377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0318]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9363356668]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:21 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:21 IST" duration-ms="380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0319]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9994131429]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:21 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:21 IST" duration-ms="384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0320]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9444205205]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:21 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:22 IST" duration-ms="415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0321]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9884246146]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:22 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:22 IST" duration-ms="382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0322]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9500012608]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:22 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:23 IST" duration-ms="411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0323]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9444301442]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:23 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:23 IST" duration-ms="387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0324]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9176702468]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:23 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:23 IST" duration-ms="374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0325]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8754567710]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:23 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:24 IST" duration-ms="440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0326]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9442500837]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:24 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:24 IST" duration-ms="364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0327]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9884287107]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:24 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:25 IST" duration-ms="372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0328]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9840045652]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:25 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:25 IST" duration-ms="374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0329]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9884639439]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:25 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:25 IST" duration-ms="356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0330]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9176666624]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:25 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:26 IST" duration-ms="361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0331]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9283264409]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:26 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:26 IST" duration-ms="362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0332]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9840851742]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:26 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:26 IST" duration-ms="370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0333]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9551700828]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:26 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:27 IST" duration-ms="389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0334]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7358515253]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:27 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:27 IST" duration-ms="363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0335]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6385084225]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:27 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:28 IST" duration-ms="372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0336]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9944813287]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:28 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:28 IST" duration-ms="425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0337]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9940237513]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:28 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:28 IST" duration-ms="352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0338]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9884797870]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:28 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:29 IST" duration-ms="367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0339]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8056780626]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:29 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:29 IST" duration-ms="365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0340]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9894422627]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:29 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:29 IST" duration-ms="357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0341]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9840249945]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:29 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:30 IST" duration-ms="371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0342]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7397469468]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:30 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:30 IST" duration-ms="358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0343]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8610835007]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method signature="certificationApproval(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:30 IST" name="certificationApproval" data-provider="studentIdProvider" finished-at="2022-06-27T13:21:31 IST" duration-ms="376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STUD0344]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9906771625]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H:\Project\ScreenShotComparison\certificate.pdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certificationApproval -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.maplogik.functional.ApproveCertificate@70cccd8f]" started-at="2022-06-27T13:21:31 IST" name="tearDown" finished-at="2022-06-27T13:21:31 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.maplogik.functional.ApproveCertificate -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
