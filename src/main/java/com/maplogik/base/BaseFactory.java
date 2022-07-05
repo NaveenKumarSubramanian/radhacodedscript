@@ -23,6 +23,10 @@ public class BaseFactory {
 	public String admin_pwd;
 	public String certificate_add;
 
+	/**
+	 * This is the Base to initiate the driver and 
+	 * read the property file
+	 */
 	public BaseFactory() {
 		Properties prop = new Properties();
 		try {
