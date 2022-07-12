@@ -23,7 +23,7 @@ public class GetData {
 		XSSFWorkbook wb = null;
 		try {
 			wb = new XSSFWorkbook(
-					new FileInputStream("H:\\Project\\ScreenShotComparison\\Computer Science Engineering.xlsx"));
+					new FileInputStream("./src/main/resources/Computer Science Engineering.xlsx"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
