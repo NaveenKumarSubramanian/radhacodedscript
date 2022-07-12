@@ -16,7 +16,7 @@ public class AfterUpdateScreenShot extends Utilities {
 	}
 
 	@Test(priority = 0, dataProvider = "studentIdProvider", dataProviderClass = GetData.class)
-	public void beforeScreenShot(String id, String number, String certificate) {
+	public void afterScreenShot(String id, String number, String certificate) {
 		driver.get(student_login_url);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		StudentLoginPageLocators.stdId.sendKeys(id);

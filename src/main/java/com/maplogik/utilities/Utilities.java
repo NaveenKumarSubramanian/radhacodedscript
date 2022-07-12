@@ -24,7 +24,7 @@ public class Utilities extends BaseFactory {
 	
 	public Utilities() {
 		super();
-		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		
 	}
 
 	/**
@@ -33,6 +33,7 @@ public class Utilities extends BaseFactory {
 	 * @return WebElement
 	 */
 	public WebElement waitForElementClickable(By locator) {
+		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		WebElement element = driver.findElement(locator);
 		return wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
@@ -45,6 +46,7 @@ public class Utilities extends BaseFactory {
 	 * @return
 	 */
 	public boolean waitForTextMatch(By locator) {
+		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		return wait.until(ExpectedConditions.textMatches(locator, Pattern.compile("\\d+")));
 	}
 

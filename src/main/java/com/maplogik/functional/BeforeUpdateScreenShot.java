@@ -32,7 +32,7 @@ public class BeforeUpdateScreenShot extends Utilities {
 		takesScreenShot(StudentLoginPageLocators.overallPosition, before, id);
 
 		String title = "Certificate of Achivement";
-		String[] boardNames = { "Board of India", "Board on Tamilnadu", "Board of AndraPradesh", "Board of Kerala",
+		String[] boardNames = { "Board of India", "Board of Tamilnadu", "Board of AndraPradesh", "Board of Kerala",
 				"Board of Karnataka" };
 		String authority = "College";
 		int count = Integer.parseInt(certificate_add);

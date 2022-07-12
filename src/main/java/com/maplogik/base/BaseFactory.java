@@ -42,12 +42,12 @@ public class BaseFactory {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		System.setProperty("webdriver.chrome.driver", driverLocation);
-		driver = new ChromeDriver();
 	}
 
 	@BeforeTest
 	public void openBrowser() {
+		System.setProperty("webdriver.chrome.driver", driverLocation);
+		driver = new ChromeDriver();
 		PageFactory.initElements(driver, StudentLoginPageLocators.class);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
