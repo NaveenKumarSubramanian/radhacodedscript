@@ -22,6 +22,8 @@ public class BaseFactory {
 	public String admin_un;
 	public String admin_pwd;
 	public String certificate_add;
+	public String failedScreenshotLocation;
+	public String ExtentReport;
 
 	/**
 	 * This is the Base to initiate the driver and 
@@ -39,11 +41,14 @@ public class BaseFactory {
 			admin_un = prop.getProperty("admin_un");
 			admin_pwd = prop.getProperty("admin_pwd");
 			certificate_add = prop.getProperty("certificate_add");
+			failedScreenshotLocation = prop.getProperty("FailedTestScreenshot");
+			ExtentReport = prop.getProperty("ExtentReport");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
 
+	
 	@BeforeTest
 	public void openBrowser() {
 		System.setProperty("webdriver.chrome.driver", driverLocation);

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite (0)]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="beforeScreenshot(failed)">
+    <classes>
+      <class name="com.maplogik.functional.BeforeUpdateScreenShot">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="tearDown"/>
+          <include name="beforeScreenShot" invocation-numbers="43"/>
+        </methods>
+      </class> <!-- com.maplogik.functional.BeforeUpdateScreenShot -->
+    </classes>
+  </test> <!-- beforeScreenshot(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->

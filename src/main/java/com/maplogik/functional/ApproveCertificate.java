@@ -1,7 +1,6 @@
 package com.maplogik.functional;
 
 import org.testng.annotations.Test;
-
 import com.maplogik.base.GetData;
 import com.maplogik.pagelocators.AdminCerificationPageLocator;
 import com.maplogik.pagelocators.AdminHomePageLocator;

@@ -8,6 +8,8 @@ import java.util.regex.Pattern;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.io.FileHandler;
@@ -22,9 +24,9 @@ public class Utilities extends BaseFactory {
 	WebDriverWait wait;
 	Actions actions;
 	
+	
 	public Utilities() {
 		super();
-		
 	}
 
 	/**
@@ -41,7 +43,6 @@ public class Utilities extends BaseFactory {
 	/**
 	 * Wait for the given locator contains any number
 	 * 
-	 * @param driver
 	 * @param locator
 	 * @return
 	 */
@@ -66,6 +67,23 @@ public class Utilities extends BaseFactory {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+	}
+	
+	/**
+	 * 
+	 * @param storeLocation
+	 * @param dateAndTime
+	 */
+	public String takesScreenShotPage(WebDriver driver,String storeLocation, String dateAndTime) {
+		File screenShot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		String directory = storeLocation+dateAndTime+ ".png";
+		File finalDirectory = new File(directory);
+		try {
+			FileHandler.copy(screenShot, finalDirectory);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return directory;
 	}
 
 	/**
@@ -151,5 +169,13 @@ public class Utilities extends BaseFactory {
 	public void clickMoveToElement(By locator) {
 		actions = new Actions(driver);
 		actions.click(driver.findElement(locator)).perform();;
+	}
+	
+	/**
+	 * 
+	 * @return
+	 */
+	public String pageTitle() {
+		return driver.getTitle();
 	}
 }

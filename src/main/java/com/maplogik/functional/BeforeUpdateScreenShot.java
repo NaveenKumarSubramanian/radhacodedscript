@@ -44,9 +44,6 @@ public class BeforeUpdateScreenShot extends Utilities {
 			sendKey(StudentCertificationPageLocators.issuingAuthority, authority);
 			sendKey(StudentCertificationPageLocators.boardName, boardNames[i]);
 			selectByText(StudentCertificationPageLocators.scopeOfCertification, "International");
-//			click(StudentCertificationPageLocators.yearOfcertification);
-//			waitForElementClickable(StudentCertificationPageLocators.selectToday);
-//			click(StudentCertificationPageLocators.selectToday);
 			uploadFile(StudentCertificationPageLocators.certifiUpload, certificate);
 			click(StudentCertificationPageLocators.submitButton);
 		}
